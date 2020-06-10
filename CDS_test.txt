@@ -1,0 +1,232 @@
+LOCUS       LT552780                3226 bp    DNA     linear   CON 19-APR-2016
+DEFINITION  Absidia glauca strain CBS 101.48 genome assembly, scaffold:
+            scf_6499, whole genome shotgun sequence.
+ACCESSION   LT552780 FKIZ01000000
+VERSION     LT552780.1
+DBLINK      BioProject: PRJEB13349
+            BioSample: SAMEA3923633
+KEYWORDS    WGS.
+SOURCE      Absidia glauca
+  ORGANISM  Absidia glauca
+            Eukaryota; Fungi; Mucoromycota; Mucoromycotina; Mucorales;
+            Cunninghamellaceae; Absidia.
+REFERENCE   1
+  AUTHORS   Ellenberger,Sabrina.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2016) FRIEDRICH SCHILLER UNIVERSITY JENA,
+            Neugasse 24, 07743 Jena, Germany
+FEATURES             Location/Qualifiers
+     source          1..3226
+                     /organism="Absidia glauca"
+                     /mol_type="genomic DNA"
+                     /strain="CBS 101.48"
+                     /sub_strain="RVII-324 met-"
+                     /culture_collection="CBS:101.48"
+                     /db_xref="taxon:4829"
+                     /mating_type="minus"
+     gene            complement(<9..1783)
+                     /gene="ABSGL_05122.1 scaffold 6499"
+     CDS             complement(<9..1783)
+                     /gene="ABSGL_05122.1 scaffold 6499"
+                     /codon_start=1
+                     /product="hypothetical protein, partial"
+                     /protein_id="SAL99496.1"
+                     /translation="MEKQPNNNNMEVDVENSYQSDVARAIHSLDVLKKRAVDAQGKAD
+                     EALAADAPEEEYEALMDVYNKKWELYQRTRSNFAARFPEEGVFRTGKASGGPNQGSNK
+                     NPVAAPALKVSDLPFLASARERASGNRALVTQNVREFATAFEALMELHQLNINDVYQR
+                     YLPICLGKYYKTFIYSKRTLTGETNIETWPMVKGWLVEFTNTPRQKVKNTTAWMELTP
+                     GSDETGEDFFHRVREFKEAHELANISADALLFFAVFTNCRFGWRNKISEAIRDTHQPF
+                     VENFFEEMCAFASDLELNAGKPDAEDRHDNHQRSTTSSQRTNRKRSAADNNHYGNRTW
+                     TNNNASTPRRMKGPTGPYPGGGRYCDNGCGEKFMPPHKGVCPAIINRETNDRRSNEDR
+                     RDSKRHQSEPDRQHQRRQDRPVSRAASEYIDQVRADDVERLQSTFRGTTLDDDEDDKL
+                     PCKLKGQKSEGNTPILLEHEINVPLYIENKRTLALVDSGANFSSINKNFCTEHNVPIL
+                     PHKKESNILLANAGISIKSYGYTPPITIKYNGSYYTCQLEVMDLALGRTMSVVFEPSI
+                     DAVYLQTPLKRFSIFSNAAVKLSCQ"
+CONTIG      join(FKIZ01004832.1:1..3226)
+ORIGIN
+        1 agttttacat ctgacagctg agtttgacag ctgcatttga aaagatagaa aatcttttca
+       61 ggggagtttg taaatagact gcgtctatgc tgggttcaaa cacaacagac atagttctgc
+      121 cgagggccag gtccattact tccaattggc atgtgtagta tgatccgttg tacttgatgg
+      181 tgatgggagg agtgtatcca tagcttttga ttgatatgcc ggcattggcg agcaaaatgt
+      241 tagattcttt tttatgtggc aagatgggga cattatgttc tgtgcaaaag tttttattta
+      301 ttgacgagaa attggcacca ctatctacta aagctaatgt tcgcttgttt tctatgtaga
+      361 gaggtacgtt aatttcatgt tcaagtagta taggtgtgtt cccttcactt ttttgtccct
+      421 tcaacttaca aggcagcttg tcatcttcgt catcatccag ggtagttccc ctgaatgtgc
+      481 tttgtaggcg ttccacgtca tccgcacgca cctggtcgat gtactcggag gcagcacgag
+      541 agacaggacg gtcttgacga cgctgatgtt gccgatcagg ttctgattgg tggcgcttgc
+      601 tgtcccggcg atcttcgttg cttcgtcgat cgttggtttc ccggttgatg atggcaggac
+      661 acaccccctt gtgaggaggc atgaactttt caccgcaccc attgtcgcag tatcgaccac
+      721 cgccagggta aggaccagtg gggcctttca tgcgtcgagg tgtcgaggcg ttgttgttgg
+      781 tccacgtgcg gttgccatag tggttgttgt cggctgcaga tcgcttgcga ttggtgcgtt
+      841 ggctggacgt cgtcgatcgt tgatggttgt catggcgatc ttcggcgtcg ggtttcccag
+      901 cgttgagttc caagtcggaa gcaaaggcac acatctcttc aaaaaaattt tcgacgaagg
+      961 gttggtgagt atcccgaatt gcttcagaga tcttgttgcg ccagccgaat ctacaattag
+     1021 taaaaacagc aaagaagagc aaggcatcgg cagagatgtt ggccaattca tgcgcttcct
+     1081 tgaattcccg cacacggtgg aaaaagtctt cccccgtttc atccgagcca ggagtaagtt
+     1141 ccatccaagc cgtcgtgttc tttacctttt gtctaggagt gttggtaaac tccacgagcc
+     1201 atcccttgac cataggccaa gtttcgatgt tggtttcgcc cgtcaacgtc cgcttgctat
+     1261 atataaaagt cttatagtac ttacctaggc aaataggcaa gtagcgctgg tacacgtcgt
+     1321 tgatgttgag ttgatgtagt tccatcagag cttcaaaggc agtggcaaat tcgcgcacat
+     1381 tttgggtcac cagggcacga ttcccactcg cacgttcacg agcagaggcc aggaagggga
+     1441 gatccgacac cttgagagca ggagcagcca ccggattctt gttcgagcct tggttgggac
+     1501 caccggatgc cttgccagtt cggaagacac cttcttcagg gaagcgggcc gcaaagttgg
+     1561 agcgggtcct ttgatagagt tcccacttct tgttgtaaac gtccatgagg gcttcgtatt
+     1621 cctcttcagg ggcgtcagca gccaacgctt cgtcagcttt tccttgggcg tccacggcac
+     1681 gtttcttcag gacatccaaa gagtgaatgg ccctggcaac atcggactgg taagagttct
+     1741 ccacgtcaac ttccatgttg ttgttgttgg gttgcttttc catgttgttg ttcatgatga
+     1801 tgttgctaat gatgttgttg atgttggttc gagttcgtta aaaaaaatgt tgtatcgcac
+     1861 gagaagaata acgagacgaa atcagatatc tttattaaga tgaaggaaaa agagagagag
+     1921 gtaaaaaggg gagccccggt aaaaaacctc ttcctaagcc ttctaattta agcattcaat
+     1981 ctccgccagg gacagtaatc agattgatct tcgatcaatt aaaactccga ccctacacta
+     2041 taacatcagc aatgccggat acgacagtca tcttcgatga cctctcgctt gatccacagg
+     2101 gaccagtcaa cggcggaggg ttgccagccc ggcatggtct ctggcacggc cgagaaagac
+     2161 gcagcaccac gagaagaaga ggagacagaa ggggcgagca agaaggcaac cataatgaga
+     2221 gagagattga gagagaaaga taaaagtaag agagagagtt tattgaagat gttcagataa
+     2281 agattctaac catcgactaa tgtcgatgtc ctatatatac taatttatgc taaggggttg
+     2341 atgactaaat ggaagctact cgaagaggat ggtaggttct ttggaaggtg cgagaaggta
+     2401 gaagaagtgt caatttgttt tttgaggata ccggttgatt cttgtgaaga gcgagaaggt
+     2461 acgagaggga acaagttgtt tcttggaaag agcgagaaga taggagaagg atcaggatgt
+     2521 ttcttgaaag agcgagaaga taggggaagg atcaagttgt ttcttgaaag cactggttgc
+     2581 tccttttcta agaaaaggag tgcggggttg gatggataac ggaagaggta tttgtgtggc
+     2641 gatttaggag ttcgaggtaa ttatcagtga tcggagtttg gaatggattc atgcatgaat
+     2701 ttaggctatg tgaggaggtt catcacaaga agagagaagg tgtaagaaga agagagcaag
+     2761 gggaagaaga agggagaaag gggaagaagg aattcgattc tagttggggc agtttctaac
+     2821 attatgccca gtttgtctac gattacggcg aatgcatggc gacagactca agttgtatgc
+     2881 actaccaggg gtccccacta ccagatgtct tttggatgca gaaagatagg aattcaggag
+     2941 ctgacctttt ttgatgcagg cttgtgattt ctaaacccag ctgaaaaaaa gagaagagaa
+     3001 acagctataa aagatggagg aaagaaaaaa aagggggggc aacacaaaat gaataccgag
+     3061 atgatgtatt tctttgtgcc tgtatttggt ggctttttgt acctgagatt gcttctatgt
+     3121 gttgtggtcg gtaataagta actgagacaa aataaaggtt tatttggggt agagagagaa
+     3181 aagagctgtt gatataaaaa acactcttta taaacctagt cgaccg
+//
+
+LOCUS       NC_010397               1975 bp    DNA     linear   CON 02-AUG-2016
+DEFINITION  Mycobacterium abscessus chromosome, complete sequence.
+ACCESSION   NC_010397 REGION: 170674..172648
+VERSION     NC_010397.1
+DBLINK      BioProject: PRJNA61613
+            Assembly: GCF_000069185.1
+KEYWORDS    RefSeq; evolution; genomics; mycobacteria; Mycobacterium abscessus;
+            STD; virulence.
+SOURCE      Mycobacteroides abscessus
+  ORGANISM  Mycobacteroides abscessus
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae.
+REFERENCE   1  (bases 1 to 1975)
+  AUTHORS   Ripoll,F., Pasek,S., Schenowitz,C., Dossat,C., Barbe,V.,
+            Rottman,M., Macheras,E., Heym,B., Herrmann,J.L., Daffe,M.,
+            Brosch,R., Risler,J.L. and Gaillard,J.L.
+  TITLE     Non mycobacterial virulence genes in the genome of the emerging
+            pathogen Mycobacterium abscessus
+  JOURNAL   PLoS ONE 4 (6), E5660 (2009)
+   PUBMED   19543527
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1975)
+  AUTHORS   Ripoll,F., Pasek,S., Schenowitz,C., Dossat,C., Barbe,V.,
+            Rottman,M., Heym,B., Herrmann,J.L., Daffe,M., Brosch,R. and
+            Risler,J.Land.Gaillard.J.L.
+  TITLE     Acquisition of foreign virulence genes by the cystic fibrosis
+            pathogen Mycobacterium abscessus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1975)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-APR-2013) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1975)
+  AUTHORS   Genoscope.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2007) Genoscope - Centre National de Sequencage :
+            BP 191 91006 EVRY cedex - FRANCE (E-mail : seqref@genoscope.cns.fr
+            - Web : www.genoscope.cns.fr)
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to CU458896.
+            RefSeq Category: Reference Genome
+                        COM: Community Selected
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1975
+                     /organism="Mycobacteroides abscessus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:36809"
+                     /chromosome="Chromosome"
+                     /note="Genoscope sequence ID :
+                     MYCOBACTERIUM_ABSCESSUS_CHROMOSOME"
+     gene            <1..810
+                     /locus_tag="MAB_0174"
+                     /db_xref="GeneID:5962717"
+     CDS             <1..810
+                     /locus_tag="MAB_0174"
+                     /note="Similar to Q7D4U7_MYCTU 0.0"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_001700928.1"
+                     /db_xref="UniProtKB/TrEMBL:B1MEL0"
+                     /db_xref="GeneID:5962717"
+                     /translation="MGPSNGLTRFTVWVSVLTVTVLFGWGAWQRRWIADDGLIVLRTV
+                     RNLLAGNGPVFNKGERVEANTSTLWTYLTYLGGWAGGGMRLEYVALTLSLVLSLVGVA
+                     LAILGTARLYAPLLAGRAAVMVPAGMLVYIAIPPARDFATSGLENGLVLAYLGGLWLM
+                     MVKWAQAVRTPVTLDRRGGPHQPVDPRIVHAQRDQRDVLSRRFTVGLAFLAGLSVLIR
+                     PELALIGGGFLVMMLVAARGFMSRIWIVVAGGALPVLYQIFRMGYYGLLVPSTAIAKD
+                     ASGSKWGQGFVYLQNMNSPYLIWIPAVLLIALGVAAYQARRGQWWVRQVAAPGYGWLA
+                     RLVQNPTAVVVFMLVSGFVQGVYWIRQGGDFMHARVLLTPVFCMLLPISVVPLAAPDS
+                     AAFTPKKARLLTAATIGLFAGIAGWSVWVANSPGMAGDGTKVTYSGIVDERRFYAQAT
+                     GVAHPLTAADYLNYPRMRAVLVAIDNTPDGALLLPSGNYDQWDVAPAIPPPPPIPHGY
+                     RGPHAVLFTNLGMLGMNLGLDVRIVDQIGLANPLAAHTARITDGRIGHDKNLFPDWMI
+                     ADGPWLKRYPYIPRYIDQDWVAEAVEALKCPQTDAMLSAVRKPLSPRLFVSNMLHSYE
+                     FTTYRIDRVPRFELARCGLPMPKLDTPSYTGLPATGP"
+     gene            1001..1975
+                     /locus_tag="MAB_0175"
+                     /db_xref="GeneID:5962718"
+     CDS             1001..1975
+                     /locus_tag="MAB_0175"
+                     /note="Similar to Q25XM4_MYCVN e-104"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Antigen 85-C precursor"
+                     /protein_id="YP_001700929.1"
+                     /db_xref="InterPro:IPR000801"
+                     /db_xref="UniProtKB/TrEMBL:B1MEL1"
+                     /db_xref="GeneID:5962718"
+                     /translation="MSVRVKARRVLSALLAAFVMPVSMAAAMTINPATAHAFSREGLP
+                     VEYLDVYSNSMGRNIRVEFQGGGPKAVYLLDGLRAQDDFNGWDINTAAFEWFYQSGIS
+                     VVMPVGGQSSFYTDWYSPSALNKQPYTYKWETFLTQELPAYLATNKQISATGNGVVGL
+                     SMSGGAALILAAFHPAQFRFAGSLSGFLNPSTIFMTNAIRVAMLDAGSYSVDNMWGPP
+                     WDPAWRRNDPTVQAQALVAAGTRLYIYCAPGGSTPIDDNTDAGVALSASSLESLAVAG
+                     NKAFQQAYTAAGGRNANFVFPASGNHSWPYWGQQLQALKGDLIATLNG"
+ORIGIN      
+        1 gcggccttca cccccaagaa ggcgcgtctg ctcacagcgg ccaccatcgg gttgttcgcc
+       61 ggtatcgcgg gctggtccgt ctgggtggcc aactcgccgg gcatggcagg tgacggcacc
+      121 aaggtcacct atagcggcat cgtcgatgag cgccgtttct acgcgcaggc cacaggtgtc
+      181 gcccacccgc tgaccgcagc ggactatctc aactaccccc gcatgcgggc ggtgctggtg
+      241 gcgatcgaca acacccccga cggcgcgctg ttacttccat cggggaacta cgaccaatgg
+      301 gatgtggcac cggcgatccc gccaccgccg ccgatcccgc acgggtaccg cggaccacat
+      361 gcggtgctgt tcaccaacct gggcatgctc ggcatgaacc tgggcctgga cgtacggatc
+      421 gtggatcaga tcggtttggc taacccgctg gccgcgcata ccgcgcgtat caccgatggg
+      481 cgcatcggcc acgacaaaaa cctgttcccg gactggatga tcgccgacgg gccgtggctc
+      541 aagcgttatc cctatatccc caggtacatc gatcaagact gggtggccga ggccgtcgag
+      601 gcgctgaaat gtccgcagac cgacgccatg ctcagtgcgg tgcgcaaacc gttgtcgccg
+      661 cggttgttcg tgtccaacat gctgcactcc tatgagttca cgacctatcg gatcgatcgt
+      721 gtgccgcgct ttgaactggc gcgatgcggt ctgccgatgc cgaagctgga cactccttcg
+      781 tacaccgggc tgccggcaac cggtccgtag ggtgttcgtg cccggcccct cgaggcggcc
+      841 gccgtcgtgt ctgatttgtg atcccaatta ggtaacgacg cggccccgtc atggcgatac
+      901 gaagacgacg ttgtcggaca cttcaggcgc aacgttgcgt gacagaagtg cccagtgtga
+      961 ctcctgtgaa ttcctctata tgaaacggat ggacccccag atgagcgtgc gcgtgaaagc
+     1021 ccgccgcgtg ctgtcggccc tgttagcggc gtttgtgatg cccgtgtcga tggctgcggc
+     1081 catgacgatc aaccccgcca ccgcgcatgc cttctcgcgc gaggggctcc cggtcgagta
+     1141 cctggatgtc tattccaatt cgatgggtcg caacattcgc gtcgaattcc agggcggcgg
+     1201 gcccaaggcc gtctatttgc tggacgggct gcgtgcccag gacgacttca acggctggga
+     1261 tatcaacacc gcggcgttcg aatggttcta ccaatcggga atttcggtcg tcatgcccgt
+     1321 gggtggacag tcgagcttct acaccgactg gtattcgccg tcggcgctca acaagcagcc
+     1381 ctacacgtac aagtgggaaa cattcctcac gcaggaactg cccgcctacc tcgccaccaa
+     1441 taagcagata tcggccaccg gtaacggcgt cgtcgggctg tcgatgagtg gcggtgccgc
+     1501 gctgatcctg gccgcgttcc acccggcgca gttccggttc gccggttcgc tttccggctt
+     1561 cctcaacccg tcgaccatct tcatgaccaa cgcgatccgg gtcgccatgc tcgatgcggg
+     1621 cagctacagc gtggacaaca tgtgggggcc gccgtgggat ccggcatggc gccgcaacga
+     1681 ccccaccgtg caggcgcagg cgctggtcgc ggccggcact cgcctctata tctattgcgc
+     1741 gccaggtggt tcgacgccga tcgatgacaa caccgatgcc ggtgtggccc tgagcgccag
+     1801 cagtctggag tcgctggcgg tggccggtaa caaggcattc cagcaggcgt acaccgccgc
+     1861 gggcggaagg aacgccaact ttgtcttccc cgcgtccggg aaccactcct ggccgtattg
+     1921 gggacagcaa ctgcaggccc tcaagggtga tctgattgcc acgcttaacg gctaa
+//
